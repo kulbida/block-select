@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>block select</title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+    <script src="/lib/block-select.js" type="text/javascript"></script>
+  </head>
+  <body>
+
+    <ul data-object="block-select">
+      <li data-id="jQuery">jQuery</li>
+      <li data-id="JavaScript">JavaScript</li>
+      <li data-id="Ruby">Ruby</li>
+      <li data-id="Rails">Rails</li>
+      <li data-id="PHP">PHP</li>
+    </ul>
+
+    <ul data-object="block-select">
+      <li data-id="jQuery">jQuery</li>
+      <li data-id="JavaScript">JavaScript</li>
+      <li data-id="Ruby">Ruby</li>
+      <li data-id="Rails">Rails</li>
+      <li data-id="PHP">PHP</li>
+    </ul>
+
+    <div data-object="block-select-placeholder"></div>
+
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $("[data-object='block-select']").blockSelect();
+      });
+    </script>
+
+  </body>
+</html>

@@ -11,14 +11,9 @@ ul[data-object="selected-tags"] {
   margin:0;
   top:0;
   left:0;
-  max-width: 300px;
 }
 
 textarea[data-object="input"] {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  width: 300px;
   resize: none;
   margin-top: -1px;
   margin-bottom: 10px;
@@ -40,9 +35,10 @@ ul[data-object="selected-tags"] li {
 
 div.presentation {
   position:relative;
+  border: 1px solid red;
 }
 
-a[data-object="delete-tag"] {
+a.delete-tag {
   outline: none;
   color: #FFF;
   cursor: hand;
@@ -53,3 +49,12 @@ a[data-object="delete-tag"] {
   padding: 0 2px;
 }
 
+li.selected {
+  background-color: red !important;
+}
+
+div[data-object="show-autocomplete"] {
+  position:absolute;
+  right:0;
+  top:0;
+}

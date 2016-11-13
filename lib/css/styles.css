@@ -23,6 +23,7 @@ textarea[data-object="input"] {
   margin-top: -1px;
   margin-bottom: 10px;
   min-height: 30px;
+  overflow:hidden;
 }
 
 ul[data-object="selected-tags"] li {

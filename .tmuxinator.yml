@@ -1,0 +1,7 @@
+name: block-select
+root: ./
+
+windows:
+  - editor: emacs
+  - shell: # shell
+  - server: python -m SimpleHTTPServer 8000

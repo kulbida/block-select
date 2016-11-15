@@ -1,24 +1,21 @@
 
 .hidden {
-  display:none;
+  display:none !important;
 }
 
 ul[data-object="selected-tags"] {
   display:inline;
   position:absolute;
-  /* display:inline; */
   padding:0;
   margin:0;
-  top:0;
-  left:0;
+  top:2px;
+  left:2px;
+  border-radius: 20px;
 }
 
 textarea[data-object="input"] {
-  resize: none;
-  margin-top: -1px;
+  margin-top: 1px;
   margin-bottom: 10px;
-  min-height: 30px;
-  overflow:hidden;
 }
 
 ul[data-object="selected-tags"] li {
@@ -35,7 +32,6 @@ ul[data-object="selected-tags"] li {
 
 div.presentation {
   position:relative;
-  border: 1px solid red;
 }
 
 a.delete-tag {
@@ -53,6 +49,25 @@ li.selected {
   background-color: red !important;
 }
 
+ul[data-object='autocomplete-list'] li.hovered {
+  background-color: #000;
+  color: #FFF;
+}
+
+ul[data-object='autocomplete-list'] li:hover {
+  background-color: #000;
+  color: #FFF;
+}
+
+ul[data-object='autocomplete-list'] li {
+  list-style:none;
+}
+
+ul[data-object='autocomplete-list'] {
+  background-color: red;
+}
+
+/* TODO */
 div[data-object="show-autocomplete"] {
   position:absolute;
   right:0;

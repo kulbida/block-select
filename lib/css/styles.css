@@ -1,8 +1,4 @@
 
-.hidden {
-  display:none !important;
-}
-
 ul[data-object="selected-tags"] {
   display:inline;
   position:absolute;

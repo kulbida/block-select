@@ -13,6 +13,7 @@ ul[data-object="selected-tags"] {
   margin-top: 2px;
   margin-bottom: 10px;
   font-size: 14px !important;
+  outline: none;
 }
 
 ul[data-object="selected-tags"] li {

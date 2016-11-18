@@ -1,5 +1,4 @@
-
-ul[data-object="selected-tags"] {
+div.presentation ul[data-object="selected-tags"] {
   display:inline;
   position:absolute;
   padding:0;
@@ -9,14 +8,14 @@ ul[data-object="selected-tags"] {
   border-radius: 20px;
 }
 
-[data-object="input"] {
+div.presentation [data-object="input"] {
   margin-top: 2px;
   margin-bottom: 10px;
-  font-size: 14px !important;
+  font-size: 14px;
   outline: none;
 }
 
-ul[data-object="selected-tags"] li {
+div.presentation ul[data-object="selected-tags"] li {
   float:left;
   list-style: none;
   padding: 2px 4px;
@@ -27,52 +26,65 @@ ul[data-object="selected-tags"] li {
   color:#3b73af;
 }
 
+h2.block-select {
+  font-size: 16px;
+  color: #888;
+  padding-bottom:0;
+  margin-bottom:0;
+}
+
 div.presentation {
   position:relative;
   font-family: Arial;
   margin: 20px 0;
+  padding-top:0;
+  margin-top:0;
 }
 
-a.delete-tag {
-  outline: none;
+div.presentation span.delete-tag {
   color: #ccc;
   cursor: pointer;
   text-decoration: none;
   padding: 0 2px;
 }
 
-li.selected {
+div.presentation li.selected {
   background-color: #3b73af !important;
   color: #FFF !important;
 }
 
-ul[data-object='autocomplete-list'] li.hovered, ul[data-object='autocomplete-list'] li:hover {
+div.presentation ul[data-object='autocomplete-list'] li.hovered,
+ul[data-object='autocomplete-list'] li:hover {
   background-color: #3b73af;
   color: #FFF;
 }
 
-ul[data-object='autocomplete-list'] li {
+div.presentation ul[data-object='autocomplete-list'] li {
   list-style:none;
   padding: 3px 10px;
 }
 
-ul[data-object='autocomplete-list'] {
+div.presentation ul[data-object='autocomplete-list'] a {
+  outline:none !important;
+}
+
+div.presentation ul[data-object='autocomplete-list'] {
   background-color: #FFF;
   border: 1px solid #ccc;
   border-top: none;
+  outline:none !important;
 }
 
-div[data-object="show-autocomplete"] {
+div.presentation div[data-object="show-autocomplete"] {
   position: relative;
   background-color: #FFF;
   border: 1px solid #ccc;
-  border-left: none;
   overflow: auto;
   cursor: pointer;
   overflow:hidden;
 }
 
-span.triangle {
+div.presentation span.triangle {
 	width: 0;
   height: 0;
   border-left: 5px solid transparent;
@@ -80,7 +92,7 @@ span.triangle {
   border-top: 8px solid #ccc;
 }
 
-.presentation li.nop {
+div.presentation div.presentation li.nop {
   font-style: italic;
   color: #ccc;
 }

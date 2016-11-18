@@ -10,9 +10,11 @@
 
     <form method="post" action="/">
 
-      <ul data-object="block-select" data-id="language" data-width="500px">
-        <li data-id="1" data-selected="true">jQuery</li>
-        <li data-id="2" data-selected="true">JavaScript</li>
+      <input type="text" />
+
+      <ul data-object="block-select" data-id="language" data-width="500px" data-caption="Then, to activate the actionSheet, simply call the ionUpdateActionSheet method:">
+        <li data-id="1">jQuery</li>
+        <li data-id="2">JavaScript</li>
         <li data-id="3">Ruby</li>
         <li data-id="4">Rails</li>
         <li data-id="5">PHP</li>
@@ -22,27 +24,23 @@
         <li data-id="9">NodeJs</li>
       </ul>
 
-      <!-- <ul data-object="block-select" data-id="language"> -->
-      <!--   <li data-id="jQuery" data-selected="true">jQuery</li> -->
-      <!--   <li data-id="JavaScript" data-selected="true">JavaScript</li> -->
-      <!--   <li data-id="Ruby">Ruby</li> -->
-      <!--   <li data-id="Rails">Rails</li> -->
-      <!--   <li data-id="PHP">PHP</li> -->
-      <!--   <li data-id="Java">Java</li> -->
-      <!--   <li data-id="Python">Python</li> -->
-      <!--   <li data-id="CSS is an awosome">CSS is an awesome</li> -->
-      <!--   <li data-id="NodeJs">NodeJs</li> -->
-      <!-- </ul> -->
+      <ul data-object="block-select" data-id="language2" data-caption="title 2">
+        <li data-id="jQuery" data-selected="true">jQuery</li>
+        <li data-id="JavaScript" data-selected="true">JavaScript</li>
+        <li data-id="Ruby">Ruby</li>
+        <li data-id="Rails">Rails</li>
+        <li data-id="PHP">PHP</li>
+        <li data-id="Java">Java</li>
+        <li data-id="Python">Python</li>
+        <li data-id="CSS is an awosome">CSS is an awesome</li>
+        <li data-id="NodeJs">NodeJs</li>
+      </ul>
 
-      <!-- <input type="submit" /> -->
+      <input type="text" />
+
+      <input type="submit" />
 
     </form>
-
-    <script type="text/javascript">
-      $(document).ready(function () {
-        $("[data-object='block-select']").blockSelect();
-      });
-    </script>
 
   </body>
 </html>

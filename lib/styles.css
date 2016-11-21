@@ -1,11 +1,11 @@
 div.presentation ul[data-object="selected-tags"] {
-  display:inline;
-  position:absolute;
-  padding:0;
-  margin:0;
-  top:2px;
-  left:2px;
-  border-radius: 20px;
+  display:inline !important;
+  position:absolute !important;
+  padding:0 !important;
+  margin:0 !important;
+  top:2px !important;
+  left:2px !important;
+  border-radius: 20px !important;
 }
 
 div.presentation [data-object="input"] {
@@ -60,8 +60,8 @@ ul[data-object='autocomplete-list'] li:hover {
 }
 
 div.presentation ul[data-object='autocomplete-list'] li {
-  list-style:none;
-  padding: 3px 10px;
+  list-style:none !important;
+  padding: 3px 10px !important;
 }
 
 div.presentation ul[data-object='autocomplete-list'] a {
@@ -69,9 +69,9 @@ div.presentation ul[data-object='autocomplete-list'] a {
 }
 
 div.presentation ul[data-object='autocomplete-list'] {
-  background-color: #FFF;
-  border: 1px solid #ccc;
-  border-top: none;
+  background-color: #FFF !important;
+  border: 1px solid #ccc !important;
+  border-top: none !important;
   outline:none !important;
 }
 
